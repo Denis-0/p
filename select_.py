@@ -15,7 +15,7 @@ try:
         password=password
     )
 
-    # создаем курсор для выполнения SQL-запросов
+    # курсор для выполнения SQL-запросов
     cursor = connection.cursor()
 
     # выполним SQL-запросы с помощью cursor.execute()
